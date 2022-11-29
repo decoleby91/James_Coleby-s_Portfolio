@@ -25,4 +25,9 @@
   .button {
 
   }
-  
+
+  @media (min-height: 500px) {
+    section {
+      column-width: 15em;
+    }
+  }
