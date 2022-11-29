@@ -2,6 +2,11 @@
     box-sizing: border-box;
   }
   
+.box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
   body {
     margin: 0;
     padding: 0;
