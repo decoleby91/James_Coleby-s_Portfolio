@@ -15,11 +15,16 @@ body {
 
 header {
   display: flex;
-  background-color: lightblue;
+  background-color: lightblue
 }
 
 h1 {
   flex-direction: row-reverse;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
 }
 
 main {
