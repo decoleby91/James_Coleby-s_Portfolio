@@ -10,14 +10,24 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  
+
 }
- h1{
-  flex-direction: row;
- }
- header {
+
+header {
   display: flex;
- }
+  background-color: lightblue;
+}
+
+h1 {
+  flex-direction: row-reverse;
+}
+
+main {
+  display:flex;
+}
+
+
+
 
 h1,
 h2,
