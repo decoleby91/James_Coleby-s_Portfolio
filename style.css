@@ -10,6 +10,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-image: url('./images/Command\ Line\ Code.jpg');
 
 }
 
@@ -18,12 +19,10 @@ display:flex;
 flex-direction: row;
 justify-content: space-between;
 background-color: lightblue;
+text-align: center;
 }
 
-h1{
-  display:flex;
-  flex-direction: row;
-}
+
 
 h2{
 display: flex;
