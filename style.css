@@ -10,7 +10,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-image: url('./images/Command\ Line\ Code.jpg');
+  background-image: url('./images/luca-bravo-ESkw2ayO2As-unsplash.jpg');
   color: antiquewhite;
 
 }
@@ -21,6 +21,7 @@ flex-direction: row;
 justify-content: space-between;
 background-color: lightblue;
 text-align: center;
+background-image: url('');
 }
 
 
