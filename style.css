@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #044463;
+  background-image: url('');
+  text-size: 20px;
+}
+
 body {
   display: flex;
   background-color: rgb(246, 247, 248);
@@ -12,54 +21,38 @@ body {
   line-height: 1.5;
   background-image: url('./images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
   color: antiquewhite;
+  text-align: start;
 
 }
 
-header {
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: lightblue;
-text-align: center;
-background-image: url('');
+h2 {
+  display: flex;
+  justify-content: center;
+  flex-basis: content;
+  
 }
 
-
-
-h2{
-display: flex;
-flex-direction: row;
-background-color: blueviolet;
+h3 {
+  display: flex;
+  flex-direction: row;
+  
 }
 
-
-h3{
-display: flex;
-flex-direction: row;
-background-color: burlywood;
+h4 {
+  display: flex;
+  flex-direction: row;
+  
 }
 
-
-h4{
-display: flex;
-flex-direction: row;
-background-color: goldenrod;
+section {
+  display: flex;
+  justify-content: flex-start;
 }
 
-section{
-  display:flex;
-  justify-content:flex-start;
+h5 {
+  display: flex;
+  flex-direction: row;
+  color:aliceblue;
+  
 }
-
-h5{
-display: flex;
-flex-direction: row;
-background-color: green;
-}
-
-
-
-
-
-
 
