@@ -6,6 +6,34 @@ header{
 
 }
 
+.navbar{
+  display:flex;
+  align-items: centre;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+}
+
+.nav-links a{
+  color: #fff;
+}
+
+/* logo */
+.logo{
+  font-size: 32px;
+}
+
+/*Nav bar menu */
+.menu{
+  display:flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+
+
+
 body{
 
 }
@@ -27,7 +55,7 @@ h4{
 }
 
 p{
-  
+
 }
 
 
