@@ -101,3 +101,15 @@ header {
     display: block;
   }
 }
+
+.aboutme {
+display: grid;
+}
+
+.projects {
+display: grid;
+}
+
+.contacs{
+display: grid;
+}
