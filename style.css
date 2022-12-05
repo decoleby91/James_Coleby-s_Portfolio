@@ -211,3 +211,7 @@ main {
 .solar #solarIcon {
     display: block;
 }
+
+h4 {
+justify-content: space-evenly;
+}
