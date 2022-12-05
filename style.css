@@ -1,23 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.root{
+    font-size: 16px;
+    font-family: sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: white;
-   background-size: cover;
-  background-repeat: no-repeat;
-    background-position: center;
-    color: black;
+    color:black;
+    background-color:white;
     margin: 0;
     padding: 0;
 }
@@ -27,82 +21,50 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #1e1e24;
+    background #6649b8;
 }
 
-body::-webkit-slider-thumb {
-    background: #6649b6;
+body::-webkit-scrollbar-thumb {
+    background: #6649b8
 }
 
-.root{
-    font-size: 16px;
-    font-family: sans-serif;
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
-
-}
-
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 50px;
-  background-color: #ddd;
-  border-bottom: 1px solid #bbb;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.logo {
-  color: rgb(161, 60, 255);
-  font-size: 18px;
-}
-
-.myName {
-  color: #333;
-  font-size: 14px;
-  font-family: cursive;
-  margin-left: 14px;
-  transition: color 0.3s;
-}
-
-.myName:hover {
-  color: darkolivegreen;
-  cursor: pointer;
-}
-
-.tab {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
-
-
-
-main { 
+main {
     margin-left: 5rem;
+    padding:1rem
 }
 
-.aboutme {
-display: grid;
+.navbar {
+    position: fixed;
+    background-color: var (--bg-primary);
+    transition: width 600ms ease;
+    overflow: scroll;
 }
 
-.projects {
-display: grid;
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    height: 100%
 }
 
-.contacs{
-display: grid;
+.nav-item {
+    width: 100%
 }
 
+.nav-item:last-child {
+    margin-top: auto;
+}
 
+.nav-link {
+    display: flex;
+    align-items: centre;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
 
