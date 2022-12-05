@@ -104,6 +104,10 @@ header {
   }
 }
 
+main { 
+    margin-left: 5rem;
+}
+
 .aboutme {
 display: grid;
 }
