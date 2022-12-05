@@ -13,11 +13,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url("./images/wp2895395-free-wallpaper.jpg");
+  background-color: white;
    background-size: cover;
   background-repeat: no-repeat;
     background-position: center;
-    color: antiquewhite;
+    color: black;
 }
 
 header {
@@ -113,3 +113,15 @@ display: grid;
 .contacs{
 display: grid;
 }
+
+.root{
+    font-size: 16px;
+    font-family: sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+
+}
+
+
